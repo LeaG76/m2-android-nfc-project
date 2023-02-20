@@ -51,10 +51,10 @@ Ce projet a été réalisé sous **Android Studio**, de plus il n'est pas restre
 ## Résultat
 
 <div align="center">
-<img title="Preview 1" src="preview1.jpg" alt="Preview | 1" width="200px" />
-<img title="Preview 2" src="preview2.jpg" alt="Preview | 2" width="200px" />
-<img title="Preview 3" src="preview3.jpg" alt="Preview | 3" width="200px" />
-<img title="Preview 4" src="preview4.jpg" alt="Preview | 4" width="200px" />
+<img title="Preview 1" src="assets/preview1.jpg" alt="Preview | 1" width="200px" />
+<img title="Preview 2" src="assets/preview2.jpg" alt="Preview | 2" width="200px" />
+<img title="Preview 3" src="assets/preview3.jpg" alt="Preview | 3" width="200px" />
+<img title="Preview 4" src="assets/preview4.jpg" alt="Preview | 4" width="200px" />
 </div>
 
 - Sur la première image, nous pouvons voir ce qu'il se passe sur l'application lorsque l'on scanne une nouvelle carte NFC. On permet à l'utilisateur d'entrer ses informations dans un formulaire.
