@@ -1,6 +1,6 @@
 <div align="center">
 
-# NTC Project - Android
+# NFC Project - Android
 
 ### Reading NFC cards from Android phone
 
