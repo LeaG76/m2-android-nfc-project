@@ -1,8 +1,8 @@
 <div align="center">
 
-# Projet NFC - Android/Mobile
+# NTC Project - Android
 
-### Lecture d'une carte NFC à partir d'un téléphone android
+### Reading NFC cards from Android phone
 
 <img alt="Android" src="https://img.shields.io/badge/-Android-9FC138?style=flat&logo=android&logoColor=white" />
 <img alt="Android Studio" src="https://img.shields.io/badge/-Android_Studio-90BF58?style=flat&logo=android-studio&logoColor=white" />
@@ -15,40 +15,42 @@
 <table>
     <thead>
         <tr>
-            <th width="150px">Année</th>
-            <th width="150px">Filière</th>
-            <th width="300px">Matière</th>
-            <th width="300px">Projet</th>
-            <th width="350px">Collaborateurs</th>
+            <th width="150px">Year</th>
+            <th width="150px">Course</th>
+            <th width="300px">Subject</th>
+            <th width="300px">Project</th>
+            <th width="350px">Collaborators</th>
         </tr>
     </thead>
     <tbody>
         <tr>
         <td align="center">2022-2023</td>
         <td align="center">M2 IWOCS</td>
-        <td align="center">Programmation Android</td>
+        <td align="center">Android Programming</td>
         <td align="center">NFC</td>
-        <td align="center">Léa Gallier et Kévin Leroux</td>
+        <td align="center">Léa Gallier & <a href="https://github.com/lrxk">Kévin Leroux</a></td>
         </tr>
     </tbody>
 </table>
 
-### Plan
+### Contents
 
-1. [Présentation du projet](#présentation-du-projet)
-2. [Résultat](#résultat)
+1. [Project display](#project-display)
+2. [Result](#result)
 
-## Présentation du projet
+## Project display
 
-L'objectif de ce projet est de développer une application Android sous **Java** (ou Kotlin mais nous avons choisi Java) qui va permettre de lire une carte avec la technologie de communication sans fil **NFC** (Near-field communication). Et plus particulièrement, on va s'intéresser au cas de notre carte étudiante "Léocarte". Lors de la lecture de celle-ci, cela va nous retourner un code.
+The objective of this project is to develop an Android application under **Java** (or Kotlin but we have chosen Java) which will make it possible to read a card with the wireless communication technology **NFC** (Near-field communication). And more particularly, we will be interested in the case of our "Léocarte" student card. When reading it, it will return a code.
 
-A partir de là, nous allons créer une base de données **SQLite**. Dans cette base nous aurons une table *Person* qui aura comme champs/colonnes : un identifiant de la table (*id*), l'identifiant de la carte (*card_id*), le prénom de l'étudiant (*surname*) et son nom (*last_name*).
+From there, we will create a **SQLite** database. In this database we will have a table *Person* which will have as fields/columns: an identifier of the table (*id*), the identifier of the card (*card_id*), the first name of the student (*surname* ) and its name (*last_name*).
 
-Notre but est que lorsque l'on va scanner une carte étudiante, si l'étudiant est déjà présent dans notre base de données alors on va faire une recherche sur son identifiant dans la table *Person* et on va retourner son nom et son prénom. S'il n'est pas présent dans la base alors après la lecture de la carte, un formulaire va s'ouvrir sur l'application Android et on va pouvoir renseigné le nom et prénom du porteur de la carte, après cela les informations saisies seront enregistrées dans la table *Person*.
+Our goal is that when we scan a student card, if the student is already present in our database then we will search for his identifier in the *Person* table and we will return his first and last name . If it is not present in the database then after reading the card, a form will open on the Android application and we will be able to fill in the name and surname of the cardholder, after that the information entered will be saved in the *Person* table.
 
-Ce projet a été réalisé sous **Android Studio**, de plus il n'est pas restreint qu'à un seul type de carte ("Léocarte"), cela fonctionne également pour la plus grande partie des cartes possédant la technologie NFC.
+This project was carried out under **Android Studio**, moreover it is not restricted to a single type of card ("Leocard"), it also works for most cards with NFC technology.
 
-## Résultat
+## Result
+
+The application interface is in French
 
 <div align="center">
 <img title="Preview 1" src="assets/preview1.jpg" alt="Preview | 1" width="200px" />
@@ -57,10 +59,10 @@ Ce projet a été réalisé sous **Android Studio**, de plus il n'est pas restre
 <img title="Preview 4" src="assets/preview4.jpg" alt="Preview | 4" width="200px" />
 </div>
 
-- Sur la première image, nous pouvons voir ce qu'il se passe sur l'application lorsque l'on scanne une nouvelle carte NFC. On permet à l'utilisateur d'entrer ses informations dans un formulaire.
+- On the first image, we can see what happens on the application when we scan a new NFC card. The user is allowed to enter their information in a form.
 
-- Sur la deuxième image, on peut voir que le NFC redirige vers un identifiant connu dans la base de données et donc l'application nous affiche les informations du propriétaire de la carte.
+- On the second image, we can see that the NFC redirects to a known identifier in the database and therefore the application shows us the information of the owner of the card.
 
-- Sur les images 3 et 4, on peut voir ce qu'il se passe lorsque l'on scanne une nouvelle carte NFC mais qu'on ne remplit pas les champs du nom et prénom. Dans un premier temps, nous avons un message d'erreur, rien ne s'est ajouté dans la base de données. Puis si on re tente de scanner la même carte le formulaire s'ouvre bien à nouveau avec les champs vide à remplir.
+- On images 3 and 4, you can see what happens when you scan a new NFC card but don't fill in the first and last name fields. At first, we have an error message, nothing has been added to the database. Then if we try again to scan the same card, the form opens again with the empty fields to fill in.
 
-N.b. : sur l'image 3, on peut voir la structure de l'application avec un logo et un titre. Source du logo de l'application : <a href="https://www.flaticon.com/fr/icones-gratuites/nfc" title="Icône | NFC">Nfc icônes créées par le graphiste Darius Dan - Flaticon</a>
+N.b. : in image 3, we can see the structure of the application with a logo and a title. App logo source : <a href="https://www.flaticon.com/fr/icones-gratuites/nfc" title="Icon | NFC">Nfc icon created by graphic designer Darius Dan - Flaticon</a>
