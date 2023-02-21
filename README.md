@@ -1,16 +1,15 @@
-<div align="center">
+<p align="center">
+    <h1 align="center">NFC Project - Android</h1>
+    <h4 align="center">Reading NFC cards from Android phone</h4>
+</p>
 
-# NFC Project - Android
-
-### Reading NFC cards from Android phone
-
-<img alt="Android" src="https://img.shields.io/badge/-Android-9FC138?style=flat&logo=android&logoColor=white" />
-<img alt="Android Studio" src="https://img.shields.io/badge/-Android_Studio-90BF58?style=flat&logo=android-studio&logoColor=white" />
-<img alt="Java" src="https://img.shields.io/badge/-Java-E61F24?style=flat&logo=java&logoColor=white" />
-<img alt="NFC" src="https://img.shields.io/badge/-NFC-000000?style=flat&logo=nfc&logoColor=white" />
-<img alt="SQLite" src="https://img.shields.io/badge/-SQLite-0E7DCC?style=flat&logo=sqlite&logoColor=white" />
-
-</div>
+<p align="center">
+    <img alt="Android" src="https://img.shields.io/badge/-Android-9FC138?style=flat&logo=android&logoColor=white" />
+    <img alt="Android Studio" src="https://img.shields.io/badge/-Android_Studio-90BF58?style=flat&logo=android-studio&logoColor=white" />
+    <img alt="Java" src="https://img.shields.io/badge/-Java-E61F24?style=flat&logo=java&logoColor=white" />
+    <img alt="NFC" src="https://img.shields.io/badge/-NFC-000000?style=flat&logo=nfc&logoColor=white" />
+    <img alt="SQLite" src="https://img.shields.io/badge/-SQLite-0E7DCC?style=flat&logo=sqlite&logoColor=white" />
+</p>
 
 <table>
     <thead>
