@@ -49,8 +49,6 @@ This project was carried out under **Android Studio**, moreover it is not restri
 
 ## Result
 
-The application interface is in French
-
 <div align="center">
 <img title="Preview 1" src="assets/preview1.jpg" alt="Preview | 1" width="200px" />
 <img title="Preview 2" src="assets/preview2.jpg" alt="Preview | 2" width="200px" />
