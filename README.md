@@ -32,12 +32,7 @@
     </tbody>
 </table>
 
-### Contents
-
-1. [Project display](#project-display)
-2. [Result](#result)
-
-## Project display
+## About
 
 The objective of this project is to develop an Android application under **Java** (or Kotlin but we have chosen Java) which will make it possible to read a card with the wireless communication technology **NFC** (Near-field communication). And more particularly, we will be interested in the case of our "Léocarte" student card. When reading it, it will return a code.
 
